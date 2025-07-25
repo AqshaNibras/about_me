@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    background-color: rgb(51, 51, 51);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+}
+
+.container {
+    width: 650px;
+    height: 500px;
+    background-color: #202020;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.contents {
+    margin-top: 38px;
+}
+
+.top {
+    display: flex;
+}
+
+img {
+    margin: 25px 40px 40px 40px;
+    width: 28%;
+    border-radius: 8px;
+}
+
+.introduction_canvas {
+    height: 100%;
+    max-width: 380px;
+    padding: 13px;
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 1.4;
+    border-left: 2px solid white;
+}
+
+.desc_canvas {
+    max-width: 580px;
+    margin-left: 40px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+.bracket {
+    color: rgb(255, 208, 0);
+}
+
+.var {
+    color: rgb(109, 233, 255);
+}
+
+.equal {
+    color: white;
+}
+
+.colon {
+    color: white;
+}
+
+.int {
+    color: #b3f691;
+}
+
+.def {
+    color: #f1ec87;
+}
+
+.str {
+    color: rgb(250, 146, 105);
+}
+
+
+
+
+#desc {
+    margin: 0px;
+    margin-left: 20px;
+    max-width: 530px;
+    text-align: justify;
+    color: rgb(250, 146, 105);
+}
+
+#intro {
+    margin: 0px;
+    margin-left: 20px;
+    max-width: 530px;
+    text-align: justify;
+    color: rgb(250, 146, 105);
+}
